@@ -1,0 +1,37 @@
+.nav li .submenu{
+    visibility: hidden;
+}
+
+.nav li:hover .submenu{
+    opacity: 1 !important;
+    visibility: inherit;
+    top: 100%;
+    transition: 1s;
+    z-index: 50;
+}
+.nav li .submenu li:hover button{
+   color: #ff5252 !important;
+}
+
+.nav li .submenu li .submenu:hover button{
+   color:rgb(69, 69, 69,0.7) !important;
+}
+.nav li .submenu li .submenu button:hover{
+   color: #ff5252 !important;
+}
+
+.nav li .submenu li .submenu{
+    opacity: 0 !important;
+    top: 0%;
+    left: 130%;
+}
+.nav li .submenu li:hover .submenu{
+    opacity: 1 !important;
+    visibility: inherit;
+    left: 100%;
+    top:0%;
+    transition: 1s;
+    z-index: 50;
+}
+
+
